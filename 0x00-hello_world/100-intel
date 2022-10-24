@@ -1,2 +1,2 @@
 #!/bin/bash
-igcc -S -masm=intel $CFILE
+gcc $CFILE -o intel
